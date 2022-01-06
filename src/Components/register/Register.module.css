@@ -1,0 +1,22 @@
+.inputTag {
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* margin-left: ; */
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+  .input {
+    max-width: 30rem;
+    /* margin: 0 auto; */
+  }
+  
+  .hover:hover {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 575px) {
+    /* form {
+      margin-left: 3rem;
+    } */
+  }
+  

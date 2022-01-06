@@ -1,0 +1,37 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 5rem;
+  grid-gap: 0.5rem;
+}
+
+.main .grid1 {
+  border: 1px solid #d8dde1;
+
+  border-radius: 5px;
+}
+
+.main .grid2 {
+  border: 1px solid #d8dde1;
+  border-radius: 5px;
+}
+
+@media (max-width: 1500px) {
+  .main {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    /* margin: 1rem; */
+    /* margin: 0 1rem; */
+    margin-top: 1rem;
+  }
+  .main .grid1 {
+    border: none;
+  }
+
+  .main .grid2 {
+    margin-top: 5rem;
+    border: none;
+  }
+}
